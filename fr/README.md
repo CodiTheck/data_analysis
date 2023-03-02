@@ -52,4 +52,29 @@ De *Google* à la Banque d'Amérique, en passant par *Wall Street*, *Pentagon*, 
 Je ne peux pas parler d'analyse de données sans parler du langage **R**. Ce dernier est également un excellent langage de programmation. R dispose d'une énorme bibliothèque de fonctions statistiques. Et si tu es dans un domaine hautement technique, qui requiert une études statistiques avancées par exemple, alors là tu es obligé d'y jeter un coup d'œil.
 
 ## Processus d'analyse de données
+1. Le processus commence par l'obtention des données : d'où viennent les données ? Elles peuvent généralement provenir d'une base de données, mais aussi depuis des fichiers stockés dans un format différent ou depuis des APIs Web.<br/>
 
+2. Une fois que tu a collecté les données, tu dois les nettoyer. Si la source des données est ta propre base de données, alors elle est probablement en forme d'écriture. Si tu utilise des sources plus extrêmes comme le web scraping, le processus de nettoyage sera plus fastidieux.<br/>
+
+3. Une fois les données nettoyées, tu dois maintenant les réorganiser et les remodeler pour une meilleure analyse, en transformant les champs, en fusionnant les données si elles proviennent de plusieurs sources, etc. L'objectif de cette étape est de préparer les données pour l'étape suivante. <br/>
+
+4. L'étape d'analyse consiste à extraire des modèles à partir des données qui sont maintenant propres à toute forme de capture de tendances ou d'anomalies. C'est dans cette étape que l'analyse statistique sera fondamentale. <br/>
+
+5. Enfin, il est temps de faire quelque chose avec l'analyse faite sur les données. S'il s'agissait d'un projet de science des données (Data Science), nous pourrions être prêts à mettre en œuvre des **modèles d'apprentissage automatique (Machine Learning)**. Si nous nous concentrons uniquement sur l'analyse des données, nous aurons probablement besoin de construire des rapports pour communiquer nos résultats d'analyse afin de soutenir la prise de décision.<br/>
+
+
+| Numéro | Étape                     | Tâches possibles                                          |
+|--------|---------------------------|-----------------------------------------------------------|
+|   01   | Récupération de données   | SQL, Data scrapping, Lecture de fichiers (CSV, JSON, XML), Consulter des APIs, Achat de données, etc.|
+|   02   | Nettoyage des données     | Donnée manquant et données vides, Types de données incorrects, Valeurs incorrectes ou invalides, Données aberrantes et non pertinentes, etc. |
+|   03   | Préparation des données   | Données hiérarchisées, Manipulation de données, Redimentionnement et transformation, Indexation des données pour un accès rapide, Fusion des données issus de différentes sources, etc. |
+|   04   | Analyse des données       | Exploration, Construction des modèles statistiques, Visualisation et représentation, Analyse de corrélation et de causalité, Test d'hypothèse, Analyse statistique, etc.|
+|   05   | Exploitation              | Machine learning, Feature Engineering, Prise de décision, Tableau de bord et rapports en temps réel, etc. |
+
+> - En statistique, **une donnée aberrante** (**outlier** en anglais) est une valeur ou une observation qui est **distante** des autres observations effectuées sur le phénomène étudié. C'est-à-dire qu'elle s'oppose grandement au autres valeurs « normalement » mesurées.
+> - Expliquer d'une **corrélation**: tout simplement, lorsque deux variables présentent une corrélation, on peut l'expliquer simplement en présentant le fait qu'il existe une relation entre les deux variables en question. Si par exemple, les variables bougent dans une direction opposée, la corrélation est dite "négative". À l'inverse, si les variables bougent dans la même direction, la corrélation est dite "positive".
+> - Différence entre **corrélation** et **causalité**: La corrélation correspond à un lien statique entre deux variables. Les conséquences et les effets du lien ne sont pas questionnés. A l'inverse, la causalité est un lien qui permet d'affirmer qu'une variable agit sur l'autre, et dans quelle mesure. La causalité prend donc en considération les conséquences du lien tandis que la corrélation correspond au lien statique. C'est pour cela on parle souvent de constante de corrélation.
+> - Le **feature engineering** ou ingénierie des fonctionnalités est une étape préliminaire du *machine learning* visant à réaliser un prétraitement des données brutes avant leur utilisation comme données d'apprentissage. Par exemple: la tokenisation en NLP, le changement d'echelle, etc.
+
+
+Enfin bref, dans la vie réelle, ce processus n'est pas si linéaire (ligne droite), nous sautons souvent d'une étape à l'autre et cela ressemble plus à un cycle qu'à une ligne droite.
