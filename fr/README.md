@@ -29,3 +29,27 @@ De multiples acteurs utiliseront tes résultats d'analyse : marketing, ventes, c
 Ils peuvent tous avoir besoin de rapports différents ou d'un niveau de détail différent et/ou avoir besoin d'une vision différente de la même information. Bref, des outils sont disponibles aujourd'hui pour l'analyse des données.
 
 ## Outils d'analyse de données
+Les outils d'analyse de données sont répartis en deux grandes catégories. A savoir:
+- **Les outils d'autogestion** sont des produits proches des outils que tu peux acheter et commencer à utiliser dès la sortie de la boîte. Par exemple: *Excel*. *Tableau* et *Luchar* sont probablement les plus populaires pour l'analyse des données.
+- À l'autre extrême, nous avons ce que nous appelons des **langages de programmation** que nous pouvons  appeler outils ouverts et libre d'accès. Ils ne sont pas vendus par un fournisseur individuel, mais sont constitués de bibliothèques open source. **Python**, **R** et **Julia** sont les plus populaires dans cette catégorie.<br>
+
+### Les outils d'autogestion
+Le principal avantage des outils fermés comme Tableau ou Excel est qu'ils sont généralement faciles à apprendre et à utiliser. L'entreprise propriétaire fournit une bonne documentation de son produit. Le plus gros désavantage est que la portée des fonctionnalités de ces outils est limitée. On ne peut donc pas
+aller au delà.
+
+### Les langage de programmation
+En revanche, l'utilisation de Python et de l'univers des outils PI Data nous offre d'énormes avantages et une flexibilité étonnante. Si par exemple tu as besoin de récupérer des données à partir d'une API fermée en utilisant une clé secrète d'authentification, tu peux le faire. Si tu as besoin de consommer (récupérer) des données directement à partir des Kinesis de *Amazon Web Service (AWS)*, ça aussi tu peux.
+Les langages de programmation les outils les plus puissants que tu peux apprendre. Un autre avantage important est la portée générale d'un langage de programmation. Il s'agit des autres
+point fort d'un langage de programmation: POO, programmation système, gestion des bases de données, etc. <br/>
+
+Le principal inconvénient d'un langage de programmation est qu'il n'est pas aussi simple à apprendre comme un outil d'autogestion. Tu dois d'abord apprendre les bases de l'algorithmie, et cela prend énormement du temps.
+
+## Pourquoi choisir Python ?
+Python est le meilleur langage de programmation. Il est simple, intuitif, et lisible, il comprend des milliers de bibliothèques pour faire pratiquement tout, de la cryptographie à l'IoT. Python est libre, gratuit et open source. Cela signifie qu'il y a des milliers d'interventions de personnes très expérimentés qui examinent les fonctions internes du langage et des bibliothèques implémentées.
+De *Google* à la Banque d'Amérique, en passant par *Wall Street*, *Pentagon*, etc, ces grandes institutions font confiance à Python tous les jours. C'est à dire qu'il sera très difficile de s'en débarrasser un jour. Enfin, Python bénéficie d'un excellent esprit d'open source. La communauté est incroyable, la documentation est exhaustive.
+
+## Quand choisir R ?
+Je ne peux pas parler d'analyse de données sans parler du langage **R**. Ce dernier est également un excellent langage de programmation. R dispose d'une énorme bibliothèque de fonctions statistiques. Et si tu es dans un domaine hautement technique, qui requiert une études statistiques avancées par exemple, alors là tu es obligé d'y jeter un coup d'œil.
+
+## Processus d'analyse de données
+
