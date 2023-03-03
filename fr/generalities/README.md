@@ -98,6 +98,13 @@ Les bibliothèques les plus importantes que nous utiliserons sont pandas pour l'
 - [scipy](https://docs.scipy.org/doc/): Calcul scientifique avancé, comprenant des fonctions d'optimisation, d'algèbre linéaire, de traitement d'images et bien plus encore.
 - [scikit-learn](https://scikit-learn.org/stable/): La bibliothèque d'apprentissage automatique (Machine Learning) la plus populaire pour Python. Elle contient tous les algorithmes de machine learning les plus utilisés, tout, sauf les algorithmes de Deep Learning.
 
+### Comment pensent les analystes de données qui utilisent Python ?
+Si tu viens d'un milieu traditionnel d'analyse de données utilisant des outils comme Excel et Tableau, tu es probablement habitué à avoir une interface graphique te permettant de visualiser tes données. Tous tes outils d'analyse sont accessibles par simple clic. Cela fonctionne très bien pour une petite quantité de données. Mais, ne fonctionne plus correctement lorsque la quantité de données augmente. Il est tout simplement impossible pour les humains de gérer et de référencer visuellement trop de données, et le traitement devient incroyablement lent. En revanche, lorsqu'on travaille avec Python, on n'a pas de référence visuelle constante (Interface graphique) des données avec lesquelles on travaille. On sait que nos données sont en mémoire. On connait leurs principales propriétés statistiques, mais on ne les observe pas constamment comme dans Excel ou Tableau. Et c'est grâce à cela qu'on arrive à travailler avec des millions d'enregistrements (grosse quantité de données) de manière incroyablement rapide. Donc, tu peux déplacer tes processus d'analyse de données d'un ordinateur à un autre sans faire trop d'efforts.<br/>
+
+Outre la liberté et le pouvoir qu'offre la programmation, il existe une autre raison importante. Selon *PayScale*, les analystes de données qui connaissent **Python** et **SQL** sont mieux payés que ceux qui ne savent pas utiliser les outils de programmation. Oops ! Je n'ai rien inventé, je t'ai juste rapporté ce que j'ai entendu. <br/>
+
+Donc, c'est tout. Dans la prochaine section, je vais te montrer un exemple d'analyse de données avec Python. Je veux que tu voie par toi même tout de suite ce que tu seras capable de faire après ce cour. Alors, prend une pose et reprend des forces, avant de passer à la section suivante.
+
 <br/>
 <br/>
 
