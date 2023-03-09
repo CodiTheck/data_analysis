@@ -23,8 +23,8 @@ Si tu utilise un notebook, alors ajoute aussi la ligne de code suivante.
     <summary>Table des Contenus</summary>
     <ul>
         <li><a href="#chargement-de-la-dataset">Chargement de la dataset</a> </li>
-        <li><a href="#le-machine-learning">Le machine learning</a> </li>
-        <li><a href="#différence-entre-ia-et-machine-learning">Différence entre IA et machine learning</a> </li>
+        <!-- <li><a href="#le-machine-learning">Le machine learning</a> </li> -->
+        <!-- <li><a href="#différence-entre-ia-et-machine-learning">Différence entre IA et machine learning</a> </li> -->
     </ul>
 
 </details>
