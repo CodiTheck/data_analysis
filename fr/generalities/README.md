@@ -108,5 +108,5 @@ Donc, c'est tout. Dans la prochaine section, je vais te montrer un exemple d'ana
 <br/>
 <br/>
 
-<!-- - Je passe à la session **suivante**: [Algorithmes d'apprentissage fondamentaux](../core_learning_algorithms/README.md) -->
-[<--](../README.md) Je reviens à la session **précédente**: [Data analysis](../README.md)
+- Je passe à la session **suivante**: [Exemple d'analyse de donnée](../example/README.md)
+- [<--](../README.md) Je reviens à la session **précédente**: [Data analysis](../README.md)
